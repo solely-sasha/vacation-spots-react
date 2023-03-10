@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:rgba(124, 134, 181, 0.551);
+  font-family: 'Macondo', cursive;
+}
+
+h1{
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 1rem;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 5px 9px rgba(26, 157, 139, 0.628);
+
+
+}
+h2, h3{
+  margin-top: 1rem;
+  color:rgba(37, 41, 62, 0.929);
+  text-shadow: 0px 5px 9px rgba(214, 222, 221, 0.863);
+}
+
+.cards-div{
+margin: 6rem;
+  display: grid;
+  grid-template-columns: repeat(3, 400px );
+  grid-template-rows: repeat(2, 1fr);
+  align-content: center;
+grid-gap: 4rem;
+ 
+ 
+  
+}
+.cards-container{
+background-color: rgba(26, 157, 139, 0.628);
+text-align: center;
+padding-bottom: 1rem;
+
+
+}
+
+img{
+  max-width: 100%; 
+  padding: 2.5rem;
+  border-radius: 50px;
+
+}
